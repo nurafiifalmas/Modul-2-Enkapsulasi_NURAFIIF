@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Latihan;
+
+public class UjiBus {
+    public static void main(String[] args) {
+       Bus busBesar = new Bus(40);
+        busBesar.cetak();
+        
+        busBesar.addPenumpang(15);
+        busBesar.cetak();
+        busBesar.addPenumpang(5);
+        busBesar.cetak();   
+        busBesar.addPenumpang(26);
+        busBesar.cetak();
+    }
+}/*
+        Bus busMini = new Bus();
+        busMini.penumpang = 5;
+        busMini.maxPenumpang = 15;
+        busMini.cetak();
+        
+        busMini.penumpang = busMini.penumpang +5;
+        busMini.cetak();
+        busMini.penumpang = busMini.penumpang -2;
+        busMini.cetak();
+        busMini.penumpang = busMini.penumpang +8;
+        busMini.cetak();
+
+
+    }
+}*/
